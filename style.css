@@ -27,7 +27,7 @@ header svg {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 /* left side */
 .img__section-left {
@@ -92,11 +92,8 @@ header svg {
 }
 
 .main__section p {
-  /* width: 540px; */
-  /* display: flex;
- margin: auto; */
+
   color: #87879d;
-  font-family: Red Hat Display;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -120,6 +117,7 @@ header svg {
   transition: 0.3s ease-in-out;
 }
 .main__section .main__section-buttons button:hover {
+  background: #71C0D4;
   transform: scale(1.1);
 }
 .main__section .main__section-buttons button span {
@@ -127,13 +125,20 @@ header svg {
   font-size: 16px;
   font-weight: 900;
 }
+.main__section .main__section-buttons button:hover span{
+  color: #8FE3F9;
+}
 .main__section .main__section-buttons .download {
   width: 193px;
   background: #4d96a9;
 }
+
 .main__section .main__section-buttons .question {
   width: 139px;
   background: #855fb1;
+}
+.main__section .main__section-buttons .question:hover {
+  background: #B18BDD;
 }
 
 /* right side */
@@ -315,7 +320,12 @@ footer button {
 }
 footer button:hover {
   transform: scale(1.1);
+  background: #B18BDD;
 }
+footer button:hover span{
+  color: #D9B8FF;
+}
+
 footer button span {
   color: #d9b8ff;
   font-size: 16px;
