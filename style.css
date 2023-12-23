@@ -74,7 +74,6 @@ header svg {
 /* main main */
 
 .main__section {
-  width: 540px;
   height: 100%;
   text-align: center;
   display: flex;
@@ -416,8 +415,12 @@ footer button span {
 }
 @media (max-width: 540px) {
   .main {
-    height: 340px;
+    height: 320px;
   
+  }
+  .main img {
+    width: 80px;
+    height: 80px;
   }
   .description {
     width: 100%;
