@@ -259,13 +259,12 @@ header svg {
 /* footer */
 
 footer {
-  background: url("https://s3-alpha-sig.figma.com/img/10e2/acad/0c2deca845cc36afba1cf66a55d580d6?Expires=1704067200&Signature=c0frboYdtdnf3uJmvb2ovZF0-O1C6OfeyakaYYml7RNVfEV5Gbu1-du8bo9boSku5DXlfU6pYQp7pOTZXBr0ymoDkVRBVewJ8fyd84Ih32xwsus4N439Lm5PtIzTT6b~iefJraoJExCBgNFr06oBCwN9nh509hC-AzqHVFcpa8p0-wh~fF1LY6Z~Ibsn5xh6gBxQ5iiElgKXvBN1y8tOxfTPgZAFWOKg2oq~CqaBNieLBmaZ~mEcTbLe-BrLsHNYPLvMtbLC0JGoCKYJcPbaRsTUoGwKCJg9AJKiI92XdtyVc3wUyMZtdDqK0WekXO8GNYi7hWa8Q-0kf462dTPYBw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background: url("https://s3-alpha-sig.figma.com/img/10e2/acad/0c2deca845cc36afba1cf66a55d580d6?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mAyItSnRYU-xCnuZ-JDuSDCrVxUYueqFJxhVV69ayHjnS-IkRdTe0iDLHyosUV53jtGvERVzlUQE8-Vz1Z2OZZ0afCrHaF3ENsRzA1n5-h7czyWZDiYGXPlXYGsOqGsW~LW8WLAfnrF08N9WBASwcMoXkf-LK7TghB5SZaw57c9i5K3oxgL9~PcXpSsZ5OqwqQ8klYrt-nDjT2Whanp7A~652axn6YfJdbIwQi-IiEK1oWudQ7Hnih-wJUNaIRz3J0dHDWKgT9cXlom~cGUhod1DxoFx3pasicUyGnGcEvJjSDCYBBQFpPMis8GSntsZ1Jht97W7J2DuuMZX6~ehRg__");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
   width: 100%;
   height: 408px;
-  /* background-blend-mode: soft-light; */
   display: flex;
   align-items: center;
   justify-content: center;
